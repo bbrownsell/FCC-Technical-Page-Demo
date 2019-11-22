@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------------- NAV BAR ----------------- */
+
+#navbar {
+    background-color: rgb(212, 151, 151);
+    color: white;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+#navbar header {
+    margin: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px;
+    border-top: 1px solid  rgb(241, 231, 231);
+    border-bottom: 1px solid  rgb(241, 231, 231);
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+/* ---------- MAIN DOC PAGE ----------------*/
+
+#main-doc {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 30px;
+    background-color: rgb(241, 231, 231);
+    overflow-x: hidden;
+}
+
+#maintext { 
+    width: 70vw;
+    margin-left: 23vw;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+.codebox {
+    background-color: rgb(209, 206, 206);
+    margin: 25px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+code {
+    margin: 8px;
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    #maintext {
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 925px) {
+    #maintext {
+        margin-left: 40vw;
+        padding-right: 20vw;
+    }
+}
+
+@media (max-width: 670px) {
+    #maintext {
+        margin-left: 50vw;
+        padding-left: 10px;
+    }
+}
+
+/*------ INTRODUCTION SECTION ------*/ 
+
+
+#introduction header h1 {
+    margin: 20px 0 25px 0;
+}
+
+#introduction p {
+    margin: 15px;
+}
+
+#introduction ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#introduction ul li {
+    margin: 10px;
+}
+
+/*------ WHAT YOU SHOULD ALREADY KNOW SECTION ----- */
+
+#what_you_should_already_know header h1 {
+    margin: 30px 0 30px 0;
+}
+
+#what_you_should_already_know p {
+    margin: 15px;
+}
+
+#what_you_should_already_know ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#what_you_should_already_know ul li {
+    margin: 10px;
+}
+
+/*------- JAVASCRIPT AND JAVA SECTION ---------*/ 
+
+#javascript_and_java h1 {
+    margin: 30px 0 30px 0;
+}
+
+#javascript_and_java p {
+    margin: 15px;
+}
+
+
+/*---------HELLO WORLD SECTION ------- */ 
+
+#hello_world h1 {
+    margin: 30px 0 30px 0;
+}
+
+#hello_world p {
+    margin: 15px;
+}
+
+
+/*------------- VARIABLES SECTION ---------*/
+
+#variables h1 {
+    margin: 30px 0 30px 0;
+}
+
+#variables p {
+    margin: 15px;
+}
+
+/*-----------DECLARING VARIABLES SECTION --------*/ 
+
+#declaring_variables h1 {
+    margin: 30px 0 30px 0;
+}
+
+#declaring_variables p {
+    margin: 15px;
+}
+
+/*------------- VARIABLE SCOPE SECTION ------------*/
+
+#variable_scope h1 {
+    margin: 30px 0 30px 0;
+}
+
+#variable_scope p {
+    margin: 15px;
+}
+
+
+/*------------- GLOBAL VARIABLES SECTION ------------*/
+
+#global_variables h1 {
+    margin: 30px 0 30px 0;
+}
+
+#global_variables p {
+    margin: 15px;
+}
+
+/*----------CONSTANTS SECTION -------*/
+
+#constants h1 {
+    margin: 30px 0 30px 0;
+}
+
+#constants p {
+    margin: 15px;
+}
+
+/*----------DATA TYPES SECTION----------*/
+
+#data_types h1 {
+    margin: 30px 0 30px 0;
+}
+
+#data_types p {
+    margin: 15px;
+}
+
+#data_types ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#data_types ul li {
+    margin: 10px;
+}
+
+/*--------IF ELSE SECTION ---------*/
+
+#if_else_statement h1 {
+    margin: 30px 0 30px 0;
+}
+
+#if_else_statement p {
+    margin: 15px;
+}
+
+/*------------WHILE STATEMENT SECTION--------*/ 
+
+#while_statement h1 {
+    margin: 30px 0 30px 0;
+}
+
+#while_statement p {
+    margin: 15px;
+}
+
+#while_statement ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#while_statement ul li {
+    margin: 10px;
+}
+
+/*----------FUNCTION DECLARATIONS SECTION--------*/
+
+#function_declarations h1{
+    margin: 30px 0 30px 0;
+}
+
+#function_declarations p {
+    margin: 15px;
+}
+
+#function_declarations ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#function_declarations ul li {
+    margin: 10px;
+}
+
+/*-----------REFERENCE SECTION --------*/
+
+#reference h1 {
+    margin: 30px 0 30px 0;
+}
+
+#reference ul {
+    margin: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#reference ul li {
+    margin-bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
